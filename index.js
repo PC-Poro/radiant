@@ -113,7 +113,7 @@ client.on("messageCreate", function (message) {
             }
             clearTimer()
             checkForAFK(message.author, message)
-            if (users.length === 3) {
+            if (users.length === 5) {
                 async function createTmpChan() {
                     // Dynamic names, with map names & numbers
                     function generateName() {
